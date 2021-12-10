@@ -14,8 +14,9 @@ public class UniqueFinder {
                 if (result.indexOf(chars[i]) < 0) {
                     result.add(chars[i]);
 
-                }}
-        return result;
+                }
         }
+        return result;
     }
+}
 
