@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class OwlCounterTest {
 
-    OwlCounter owlCounter;
+    /*OwlCounter owlCounter;
 
     @BeforeEach
     void init() {
@@ -44,5 +44,5 @@ class OwlCounterTest {
     @Test
     void testGetNumberOfAllOwls() {
         assertEquals(11410, owlCounter.getNumberOfAllOwls());
-    }
+    }*/
 }
