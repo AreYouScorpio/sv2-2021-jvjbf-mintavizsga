@@ -13,7 +13,6 @@ public class UniqueFinder {
             for (int i = 0; i < chars.length; i++)
                 if (result.indexOf(chars[i]) < 0) {
                     result.add(chars[i]);
-
                 }
         }
         return result;
