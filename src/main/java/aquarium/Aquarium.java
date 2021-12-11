@@ -58,14 +58,16 @@ public class Aquarium {
         }
         return exist;
     }
-    public int  getSmallestFish() {
+    public Fish  getSmallestFish() {
         int min=10000;
+        Fish fish;
         for (int i = 0; i < aquarium.size(); i++) {
             if (aquarium.get(i).getWeight()<min) {
                 min = aquarium.get(i).getWeight();
+                fish = aquarium.get(i);
             };
             }
-        return min;
+        return fish;
     }
 
 }
