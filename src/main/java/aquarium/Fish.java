@@ -11,7 +11,7 @@ public abstract class Fish {
         this.name = name;
         this.weight = weight;
         this.color = color;
-        //this.hasMemoryLoss = hasMemoryLoss;
+        this.hasMemoryLoss = false;
     }
 
     public String getName() {
@@ -34,7 +34,7 @@ public abstract class Fish {
 
     public String getStatus() {
         StringBuilder sb = new StringBuilder();
-        sb.append(this.name).append(", weight: ").append(this.weight).append(", color: ").append(this.color).append(", short-term memory loss: ").append(this.hasMemoryLoss);
+        sb.append(name).append(", weight: ").append(weight).append(", color: ").append(color).append(", short-term memory loss: ").append(hasMemoryLoss);
         return sb.toString();
     }
 
