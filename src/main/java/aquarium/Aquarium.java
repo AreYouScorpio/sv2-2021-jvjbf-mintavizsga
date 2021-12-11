@@ -58,9 +58,9 @@ public class Aquarium {
         }
         return exist;
     }
-    public Fish  getSmallestFish() {
+    public Fish getSmallestFish() {
         int min=10000;
-        Fish fish;
+        Fish fish = aquarium.get(0);
         for (int i = 0; i < aquarium.size(); i++) {
             if (aquarium.get(i).getWeight()<min) {
                 min = aquarium.get(i).getWeight();
