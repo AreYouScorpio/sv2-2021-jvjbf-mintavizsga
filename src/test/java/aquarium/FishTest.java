@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class FishTest {/*
+class FishTest {
 
-    Fish clownfish;
-    Fish tang;
-    Fish kong;
+    aquarium.Fish clownfish;
+    aquarium.Fish tang;
+    aquarium.Fish kong;
 
     @BeforeEach
     void init() {
@@ -68,5 +68,5 @@ class FishTest {/*
         kong.feed();
 
         assertEquals(12, kong.getWeight());
-    }*/
+    }
 }

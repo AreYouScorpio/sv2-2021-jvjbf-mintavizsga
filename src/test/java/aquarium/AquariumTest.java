@@ -9,9 +9,9 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 class AquariumTest { /*
 
     Aquarium aquarium;
-    Fish clownfish;
-    Fish tang;
-    Fish kong;
+    aquarium.Fish clownfish;
+    aquarium.Fish tang;
+    aquarium.Fish kong;
 
     @BeforeEach
     void init() {
