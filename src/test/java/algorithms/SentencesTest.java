@@ -6,7 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SentencesTest {
 
-    /*
 
     Sentences sentences = new Sentences();
 
@@ -54,5 +53,6 @@ class SentencesTest {
     }
 
 
-     */
+
+
 }
