@@ -18,13 +18,14 @@ public class ProductFileManager {
     }
 
     private static List<Product> Products = new ArrayList<>();
-    private static List<String> lines = new ArrayList<>();
-    private static List<String> writeLines = new ArrayList<>();
+    // private static List<String> lines = new ArrayList<>();
+    // private static List<String> writeLines = new ArrayList<>();
 
 
     public List<String> readProductsFromFile(Path path) {
+        List<String> lines = new ArrayList<>();
         try {
-            List<String> lines = Files.readAllLines(path);
+            lines = Files.readAllLines(path);
             for (String line : lines) {
                 String s[] = line.split(";");
                 Products.add(new Product(s[0], s[1], Integer.parseInt(s[2])));
@@ -36,6 +37,7 @@ public class ProductFileManager {
     }
 
     public void writePriceOverToFile(Path path, int price){
+        List<String> writeLines = new ArrayList<>();
         try{
 for (Product line : Products){
     if (line.getPrice()>price) {
